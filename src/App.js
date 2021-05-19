@@ -24,9 +24,6 @@ function App() {
           <a id="social" href="https://www.instagram.com/zis.local/">
             <FaInstagram size="45px" />
           </a>
-          <a id="social" href="https://www.facebook.com/zis.local/">
-            <FaFacebook size="43px" />
-          </a>
         </div>
       </div>
     </div>

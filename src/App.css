@@ -21,10 +21,11 @@
 }
 
 .videoTag {
-  position: fixed;
+  position: absolute;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
+  top: 0;
 }
 
 .flex-container {
@@ -39,7 +40,7 @@
 
 .flex-item {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: calc(10px + 2vmin);
+
   margin: 5%;
   line-height: 20px;
   color: #fefee2;
@@ -49,12 +50,13 @@
 
 #mail {
   text-decoration: none;
-  transform: translate(0px, 30px);
+  transform: translate(0px, 3vh);
+  font-size: calc(10px + 2vmin);
 }
 
 #cs {
   position: absolute;
-  transform: translate(0px, 82vh);
+  transform: translate(0px, 80vh);
 }
 
 #social {
