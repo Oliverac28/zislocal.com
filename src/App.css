@@ -4,10 +4,11 @@
 }
 
 .logo {
-  height: 12vmin;
+  height: 11vmin;
   color: #010107;
   position: absolute;
-  padding: 5%;
+  padding-left: 8%;
+  margin-top: 4%;
 }
 
 .App-header {
@@ -20,6 +21,9 @@
 }
 
 .videoTag {
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -45,10 +49,14 @@
 
 #mail {
   text-decoration: none;
-  transform: translate(0px, -10px);
+  transform: translate(0px, 30px);
 }
 
 #cs {
   position: absolute;
-  transform: translate(0px, 15vh);
+  transform: translate(0px, 82vh);
+}
+
+#social {
+  color: #fefee2;
 }
