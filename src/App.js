@@ -22,7 +22,7 @@ function App() {
         </a>
         <div className="flex-item">
           <a id="social" href="https://www.instagram.com/zis.local/">
-            <FaInstagram size="45px" />
+            <FaInstagram size="8vh" />
           </a>
         </div>
       </div>
