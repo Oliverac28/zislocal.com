@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import logo from "./assets/logo.svg";
 import sample from "./assets/sample.mp4";
 import "./App.css";
